@@ -1,0 +1,17 @@
+import streamlit as st
+
+
+header = st.beta_container()
+dataset = st.beta_container()
+features = st.beta_container()
+modelTraining = st.beta_container()
+
+
+with header:
+  st.title('Welcome to my Predictive Model Project')
+
+with dataset:
+  st.header('Sports Ratings Prediction')
+
+with modelTraining:
+  st.header('Let us begin our model training!!')
